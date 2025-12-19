@@ -31,13 +31,13 @@ There are two types of variables:
 - Reference = memory address (stack) that points to the (heap) -> string, array, object
   // its like giving you a cheque
 
-![alt](img/Pasted image 20251218205449.png)
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218205449.png)
 
 [What are Stack and Heap Memory? by Boot dev](https://www.youtube.com/watch?v=ep2xOW52mDY):
-![[img/Pasted image 20251218210124.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218210124.png)
 
 Declaration & Initialization & Assignment
-![[img/Pasted image 20251218182803.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218182803.png)
 
 you can declare and assign in the same line:
 ```java
@@ -45,13 +45,14 @@ String food = "Pizza";
 ```
 
 You can't name your variables with this words
-![[Pasted image 20251218194708.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218194708.png)
 
 Ways to name a variable
-![[Pasted image 20251218184007.png|500]]
+
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218184007.png)
 
 variables examples
-![[Pasted image 20251218183052.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218183052.png)
 
 ```java
 int age = 22;
@@ -86,7 +87,7 @@ String name = scanner.next();
 
 For UX, there are two ways of asking the user for an input.
 on new line or in the same line.
-![[Pasted image 20251218191900.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218191900.png)
 ```java
 System.out.println("What is your name?");  
 String name = scanner.nextLine();  
@@ -111,7 +112,8 @@ System.out.println("Your name is " + name );
 
 scanner.close();
 ```
-![[Pasted image 20251218192829.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218192829.png)
+
 To fix this; after taking int/double input add
 ```java
 scanner.nextLine();
@@ -138,14 +140,15 @@ System.out.println("The area is " + area + "cm²");
   
 scanner.close();
  ```
-![[Pasted image 20251218193641.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218193641.png)
 
 ### Arithmetic Operators
 
 the `-=`, `+=`, etc. called augmented assignment operators.
-![[Pasted image 20251218194848.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218194848.png)
+
 Order of operations \[P-E-M-D-A-S]
-![[Pasted image 20251218195649.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218195649.png)
 
   
 ### (task) Shopping Cart
@@ -167,7 +170,7 @@ System.out.println("Your total is $" + price * quantity);
   
 scanner.close();
 ```
-![[Pasted image 20251218200637.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218200637.png)
 
 ### If statements
 ```java
@@ -236,7 +239,7 @@ int number = random.nextInt(50,100);
 
 ### Math
 
-![[Pasted image 20251218210547.png|500]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218210547.png)
 
 ```java
 Math.round(3.14); // 3.0
@@ -245,7 +248,7 @@ Math.floor(3.99); // 3.0
 ```
 
 #### (Example) Hypotenuse
-![[Pasted image 20251218211305.png|300]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218211305.png)
 
 ```java
 Scanner scanner = new Scanner(System.in);  
@@ -260,10 +263,10 @@ System.out.println("C = " + C);
   
 scanner.close();
 ```
-![[Pasted image 20251218211826.png]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218211826.png)
 
 #### (Example) Some circle shit
-![[Pasted image 20251218212132.png|300]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218212132.png)
 
 ```java
 Scanner scanner = new Scanner(System.in);  
@@ -284,7 +287,7 @@ System.out.println("The volume is = " + volume + "cm³");
 scanner.close();
 ```
 
-![[Pasted image 20251218213037.png|300]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218213037.png)
 if you only wants one digit after the decimal use `printf`.
 ```java
 System.out.printf("The circumference is = %.1fcm\n", circumference);  
@@ -397,7 +400,7 @@ System.out.printf("% .2f\n", price3);
 System.out.printf("% .2f\n", price4);
 ```
 
-![[Pasted image 20251218220253.png|100]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218220253.png)
 
 \[width]
 0 = zero padding
@@ -431,6 +434,6 @@ System.out.printf("%-4d\n", id3);
 System.out.printf("%-4d\n", id4);  
 System.out.println();
 ```
-![[Pasted image 20251218220823.png|200]]
+![alt](https://github.com/abde1razek/Learning-Java/blob/5f7e4a8181052b830db55482f00d9f7d6095d00b/img/Pasted%20image%2020251218220823.png)
 
 
