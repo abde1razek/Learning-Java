@@ -31,13 +31,13 @@ There are two types of variables:
 - Reference = memory address (stack) that points to the (heap) -> string, array, object
   // its like giving you a cheque
 
-![[Pasted image 20251218205449.png|500]]
+![[img/Pasted image 20251218205449.png|500]]
 
 [What are Stack and Heap Memory? by Boot dev](https://www.youtube.com/watch?v=ep2xOW52mDY):
-![[Pasted image 20251218210124.png]]
+![[img/Pasted image 20251218210124.png]]
 
 Declaration & Initialization & Assignment
-![[Pasted image 20251218182803.png|500]]
+![[img/Pasted image 20251218182803.png|500]]
 
 you can declare and assign in the same line:
 ```java
