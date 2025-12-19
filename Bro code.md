@@ -31,7 +31,7 @@ There are two types of variables:
 - Reference = memory address (stack) that points to the (heap) -> string, array, object
   // its like giving you a cheque
 
-![[img/Pasted image 20251218205449.png|500]]
+![alt](img/Pasted image 20251218205449.png)
 
 [What are Stack and Heap Memory? by Boot dev](https://www.youtube.com/watch?v=ep2xOW52mDY):
 ![[img/Pasted image 20251218210124.png]]
